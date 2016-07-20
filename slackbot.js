@@ -27,7 +27,7 @@ function post(channel, message) {
   slack.webhook({
     channel: channel,
     username: "brobot",
-    icon_emoji: ":robot_face",
+    icon_emoji: ":robot_face:",
     text: message
   }, (err, response) => {
     if (err) {
